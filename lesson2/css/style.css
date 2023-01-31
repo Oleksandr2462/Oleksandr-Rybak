@@ -3,3 +3,16 @@ img {
     height: 400px; 
 
 }
+
+.header {
+    border-bottom: 1px dashed coral;
+}
+
+.header h1, 
+.header h3 {
+    text-align: center;
+}
+
+.header h3 {
+    font-style: italic;
+}
