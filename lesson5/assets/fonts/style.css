@@ -1,9 +1,0 @@
-.action {
-    display: flex;
-    flex-direction: column;
-    background: gray;
-    align-content: flex-start;
-    width: 500px;   
-    height: 500px;
-    padding: 8px 20px;
-}
