@@ -5,45 +5,53 @@ body {
     line-height: 25px;
     color: #070707;
 }
+
 * {
     box-sizing: border-box;
 }
+
 h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
 }
+
 h4 {
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
 }
+
 main {
     background: #FFFFFF;
 }
+
 .container {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
+
 header {
     display: flex;
 }
+
 .header-container {
     border-bottom: 1px solid #828282;
     padding: 27px 0;
 }
+
 .header ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .header li {
     display: flex;
     padding: 0 12px;
 }
+
 .header a {
     text-decoration: none;
     font-family: 'Open Sans';
@@ -53,14 +61,16 @@ header {
     line-height: 25px;
     color: #828282;
 }
+
 header li.active a {
     color: #070707;
 }
+
 .avtor-title {
     margin-top: 12px;
 }
 
-.avtor-pic{
+.avatar {
     width: 100%;
     max-width: 100%;
     margin-top: 50px;
@@ -70,20 +80,24 @@ header li.active a {
 
 .about {
     background-color: #F6F6F6;
-    height: 500px; ;
+    height: 500px;
+    ;
 }
+
 .about-title {
     padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-description  {
+
+.about-description {
     width: 480px;
-height: 210px;
-margin: 0 auto;
-margin-top: 50px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
+
 .about-description p {
     padding-bottom: 30px;
 }
@@ -93,92 +107,108 @@ margin-top: 50px;
 .skills {
     height: 654px;
 }
+
 .skills-title {
     padding-top: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .skills-subtitle {
     padding-top: 20px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
+
 .icons-labels {
-    display: flex;
+    margin: 0 auto;
     padding-top: 50px;
 }
+
 .aa1 {
+    display: inline-block;
     width: 170px;
     height: 230px;
     margin: 0 auto;
+    text-align: center;
 }
+
 .img-descriptoin {
     margin-left: 47px;
 }
- .figma-icons {
+
+.figma-icons {
     padding: 7px;
 }
 
 .icons-labels a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /* portfolio */
 
 .portfolio {
     height: 2200px;
-    background-color:  #F6F6F6;
+    background-color: #F6F6F6;
 }
+
 .porfolio-title {
     padding-top: 100px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
+
 .porfolio-pic {
     width: 100%;
     max-width: 100%;
     padding-top: 50px;
 }
+
 .porfolio-description {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #070707 ;
+    border-bottom: 1px solid #070707;
 }
+
 .aa2 {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
+
 .reebok-pic {
     width: 100%;
     max-width: 100%;
-    padding-top: 70px; 
+    padding-top: 70px;
 }
+
 .reebok-description {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #070707 ;
+    border-bottom: 1px solid #070707;
 }
+
 .concert-pic {
     padding-top: 20px;
     width: 100%;
     max-width: 100%;
-    padding-top:  70px; 
+    padding-top: 70px;
 }
+
 .concert-description {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #070707 ;
+    border-bottom: 1px solid #070707;
 }
 
 /* contacts */
@@ -189,15 +219,18 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
 .contacts-subtitle {
     padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .b-1 {
     padding-top: 70px;
 }
+
 .button {
     display: flex;
     flex-direction: row;
@@ -210,16 +243,19 @@ align-items: center;
     border-radius: 22px;
     margin: 0 auto;
 }
+
 .social-grup {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .icons-social {
     display: flex;
     margin: 0 50px;
 }
+
 .social-description {
     padding-top: 60px;
     display: flex;
@@ -227,7 +263,3 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-
-
-
-
