@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+h1 {
+    font-family: "DeliusUnicase-Bold", sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(3, 370px);
+    grid-gap: 30px;
+}
+
+
+.image_1 {
+    grid-area: 1 / 1;
+    background: url(../images/image1.png);
+}
+
+.image_2 {
+    grid-area: 1 / 2 / span 1 / span 2;
+    background: url(../images/image2.png);
+}
+
+.image_3 {
+    grid-area: 2 / 1 / span 1 / span 2;
+    background: url(../images/image3.png);
+}
+
+.image_4 {
+    grid-area: 2 / 3;
+    background: url(../images/image4.png);
+}
+
+.image_5 {
+    grid-area: 3 / 1;
+    background: url(../images/image5.png);
+}
+
+.image_6 {
+    grid-area: 3 / 2 / span 1 / span 2;
+    background: url(../images/image6.png);
+}
+
+@import "../fonts/DeliusUnicase-Bold.ttf"
