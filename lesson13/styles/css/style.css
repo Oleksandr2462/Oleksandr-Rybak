@@ -1,0 +1,115 @@
+@import url(../../assets/fonts/Farro/Farro.css);
+@import url(../../assets/fonts/Francois_One/Francois_One.css);
+@import url(../../assets/fonts/PT_Sans/PT_Sans.css);
+@import url(../../assets/fonts/Staatliches/Staatliches.css);
+@import url(../../assets/fonts/Tourney/Tourney.css);
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.chapter1 {
+    font-family: "Farro", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    vertical-align: text-top;
+    padding-left: 10px;
+
+}
+
+.wrapper {
+    position: absolute;
+    width: 1200px;
+    height: 54px;
+    left: 120px;
+    top: 26px;
+}
+
+.navigation {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.logo {
+    display: inline;
+    padding-left: 952px;
+    margin-top: -16px;
+}
+
+.text {
+    font-family: "Tourney";
+    font-size: 22px;
+    line-height: 18px;
+    padding-right: 50px;
+}
+
+.text2 {
+    font-family: "Staatliches";
+    padding-left: 50px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.text__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 90px;
+    gap: 70px;
+
+    position: absolute;
+    width: 1200px;
+    height: 2225px;
+    left: 120px;
+    top: 150px;
+}
+
+.font {
+    font-family: "PT Sans", sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 20px;
+}
+
+.font1 {
+    font-family: "Francois One", sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+}
+
+.italic {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+}
+
+.text3 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.Cat {
+    background-color: gray;
+}
+
+.last {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.eng {
+    font-family: Tourney;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+
+
+}
