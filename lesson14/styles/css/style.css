@@ -1,0 +1,175 @@
+@import url(../../assets/fonts/Farro/Farro.css);
+@import url(../../assets/fonts/Francois_One/Francois_One.css);
+@import url(../../assets/fonts/PT_Sans/PT_Sans.css);
+@import url(../../assets/fonts/Staatliches/Staatliches.css);
+@import url(../../assets/fonts/Tourney/Tourney.css);
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+}
+
+.header__container {
+    display: flex;
+    width: 1200px;
+    height: 54px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.palochka {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-item {
+    margin-bottom: 80px;
+    width: 365px;
+    height: 58px;
+    border-bottom: 1px solid black;
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.sidebar {
+    position: sticky;
+    top: 150px;
+    font-family: "Francois One", sans-serif;
+    font-size: 36px;
+    width: 385px;
+    height: 462px;
+    margin-top: 80px;
+
+
+}
+
+.divider {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 8px;
+    background-color: black;
+}
+
+.main__section {
+    width: 785px;
+    margin-left: 30px;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.main__section-title {
+    padding-bottom: 40px;
+    font-family: "Francois One", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.main__section-subtitle {
+    text-transform: none;
+    font-size: 20px;
+    font-family: "Farro", sans-serif;
+    padding-left: 10px;
+    vertical-align: super;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 150px;
+}
+
+
+.header__navigation-eng {
+    font-family: "Tourney";
+    font-size: 22px;
+    padding-top: 3px;
+    padding-right: 50px;
+}
+
+
+.header__navigation-link {
+    height: 20px;
+    width: 261px;
+    display: inline;
+    font-family: "Staatliches";
+    font-size: 22px;
+    line-height: 28px;
+}
+
+
+
+.picture-background {
+    position: absolute;
+    top: 160px;
+    right: 0;
+    z-index: -1;
+}
+
+
+.plus {
+    display: inline;
+    font-weight: 900;
+}
+
+.plus:before {
+    content: '\2795';
+    display: inline-block;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 black;
+    font-size: 12px;
+}
+
+.main__section__block {
+    padding-bottom: 40px;
+}
+
+.main__section__block__block:last-child {
+    padding: 0;
+}
+
+.main__section-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__section-text {
+    font-family: "PTSans-Bold", sans-serif;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mark {
+    background-color: gray;
+}

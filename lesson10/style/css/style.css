@@ -12,14 +12,16 @@ body {
 
 }
 
+
 .wrapper {
     display: inline;
     margin-left: 180px;
 }
 
+
 .header__navigation {
     display: inline-block;
-    margin-left: 200px;
+    margin-left: 600px;
 }
 
 

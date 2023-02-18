@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lesson15/styles/css/style.css">
+    <title>lesson15</title>
+</head>
+
+<body>
+    <main class="main">
+        <form>
+            <div class="form__item">
+                <label class="label" for="username">
+                    Username
+                </label>
+                <input type="text" placeholder="Enter username" class="input" required>
+            </div>
+            <div class="form__item">
+                <label class="label" for="password">
+                    Password
+                </label>
+                <input id="password" type="password" placeholder="Enter username" class="input" minlength="4"
+                    maxleght="12">
+                <div class="form__item-message">
+                    <span class="form__item-hint">Your password should be beetwen 4 and 12 characters </span>
+                    <span class="form__item-error">Invalid value</span>
+                </div>
+            </div>
+            <label class="checkbox-container">
+                <input type="checkbox" checked="checked" class="checkbox-container__input">
+                <div class="checkbox">
+                    <span class="checkmark"></span>
+                </div>
+
+                Remember me
+            </label>
+        </form>
+    </main>
+</body>
+
+</html>
