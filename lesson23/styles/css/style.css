@@ -186,6 +186,8 @@ body {
 }
 .features .text {
   padding: 30px 0 80px;
+  font-family: Montserrat;
+  line-height: 29px;
 }
 .features__content {
   text-align: center;
