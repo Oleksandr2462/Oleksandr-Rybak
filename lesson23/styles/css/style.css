@@ -198,11 +198,6 @@ body {
   top: 120px;
   z-index: 1;
 }
-@media screen and (max-width: 1200px) {
-  .features__image {
-    width: 180px;
-  }
-}
 .features__cards {
   width: 570px;
   height: 400px;
@@ -539,6 +534,7 @@ body {
   fill: #FFF;
   background-color: #E5E5E5;
   border-radius: 50px;
+  border: solid 1px #E5E5E5;
 }
 
 .icon--blue:hover {
