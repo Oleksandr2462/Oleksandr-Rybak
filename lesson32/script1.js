@@ -1,5 +1,29 @@
 'use strict';
 
+Завдання 1
+
+// function nameFunction {
+
+// }
+
+// alert(message), prompt(message) confirm(question)
+
+Завдання 2
+
+// function quantityOfArguments(a, b, c) {
+//     console.log(arguments[0]);
+
+
+//     console.log(arguments[1]);
+
+
+//     console.log(arguments[2]);
+
+// }
+
+// quantityOfArguments(1, 2, 3);
+  
+
 Завдання 3
 
 // const num = +prompt('Введіть число');
@@ -20,6 +44,14 @@
 
 // akceptNumber(num, number);
 
+Завдання 4
+
+// function factorial(n) {
+//     return (n != 1) ? n * factorial(n - 1) : 1;
+//   }
+
+//   alert( factorial(5) );
+
 Завдання 5
 
 
@@ -36,15 +68,15 @@
 
 Завдання 6
 
-function calcSquare(lenght, width) {
-    if (width) {
-        return lenght ** 2;
-    }
+// function calcSquare(lenght, width) {
+//     if (width) {
+//         return lenght ** 2;
+//     }
 
-    return lenght * width;
-}
+//     return lenght * width;
+// }
 
-console.log(calcSquare(10, 5));
-console.log(calcSquare(5));
+// console.log(calcSquare(10, 5));
+// console.log(calcSquare(5));
 
 
