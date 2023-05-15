@@ -1,0 +1,90 @@
+.footer {
+    margin-top: -5px;
+    height: 549px;
+    // background-image: url(../../../assets/images/scott-webb-176434\ 2.jpg);
+    background: linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);
+
+
+    &__credit {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        padding-top: 203px;
+    }
+
+    &__logo {
+
+        &-icon {
+            margin-left: 75px;
+            margin-top: 54px;
+            width: 241px;
+            height: 54px;
+            cursor: pointer;
+            background: url(/assets/images/Logo.png);
+        }
+
+        &-subtext {
+            position: absolute;
+            top: 370px;
+            left: 230px;
+            color: #FFFFFF;
+            line-height: 17px;
+            cursor: pointer;
+            font-family: 'Montserrat';
+        }
+    }
+
+
+    &__social {
+        margin-top: 60px;
+        margin-left: 70px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 40px;
+        gap: 20px;
+
+        &-link {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #FFFFFF;
+            border-radius: 50%;
+        }
+
+        &-link:hover {
+            fill: aquamarine;
+            border: 1px solid #e10000;
+        }
+
+        &-Link:hover &-on {
+            fill: aquamarine;
+        }
+
+        &-icon {
+            width: 16px;
+            height: 18px;
+            fill: #FFFFFF;
+        }
+
+        &-button:hover {
+            background-color: #3C7FD4;
+            border: 1px solid #3C7FD4;
+            color: #FFFFFF;
+            -webkit-transition: 1s;
+            -o-transition: 1s;
+            transition: 1s;
+        }
+    }
+}
