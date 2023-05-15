@@ -1,0 +1,23 @@
+@import "components/swiper";
+@import "components/header";
+@import "components/projects";
+@import "components/news";
+@import "components/galerry";
+@import "components/contact";
+@import "components/footer";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
